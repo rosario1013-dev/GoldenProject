@@ -1,0 +1,11 @@
+Django>=6.0,<7.0
+djangorestframework>=3.17,<4.0
+django-cors-headers>=4.9,<5.0
+
+# Local project modules (editable install from repo)
+-e ../modules/GP_KDB
+-e ../modules/GP_FSA
+-e ../modules/GP_TECH
+-e ../modules/GP_AI
+-e ../modules/GP_EM
+-e ../modules/GP_TDX

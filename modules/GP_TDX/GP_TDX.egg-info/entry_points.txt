@@ -1,0 +1,2 @@
+[console_scripts]
+gp-tdx = GP_TDX.__main__:main

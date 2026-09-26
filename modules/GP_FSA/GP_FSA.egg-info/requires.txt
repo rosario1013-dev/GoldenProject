@@ -1,0 +1,6 @@
+pandas
+numpy
+prettytable
+beautifulsoup4
+python-dateutil
+ipython

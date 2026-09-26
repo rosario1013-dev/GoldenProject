@@ -1,0 +1,2 @@
+[console_scripts]
+gp-tech = GP_TECH.__main__:main

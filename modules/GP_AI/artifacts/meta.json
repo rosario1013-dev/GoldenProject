@@ -1,0 +1,41 @@
+{
+  "ranker": {
+    "path": "ranker.joblib",
+    "samples": 890,
+    "groups": 6,
+    "horizon": 21,
+    "relevance_bins": 5,
+    "max_label": 4
+  },
+  "updated_at": "2026-07-31T04:15:23.566969+00:00",
+  "feature_columns": [
+    "chg_1d",
+    "chg_3d",
+    "chg_5d",
+    "chg_1m",
+    "volatility_20",
+    "ma20_dev",
+    "corr_60",
+    "beta_60",
+    "excess_21",
+    "ROE",
+    "ROA",
+    "归母净利润同比",
+    "营业总收入同比",
+    "毛利率",
+    "BPS"
+  ],
+  "signal": {
+    "lgb_path": "signal_lgb.joblib",
+    "xgb_path": "signal_xgb.joblib",
+    "samples": 890,
+    "positive_rate": 0.49213483146067416,
+    "horizon": 21,
+    "buy_threshold": 0.0
+  },
+  "anomaly": {
+    "path": "anomaly.joblib",
+    "samples": 890,
+    "contamination": 0.05
+  }
+}

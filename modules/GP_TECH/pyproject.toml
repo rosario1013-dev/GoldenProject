@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GP_TECH"
+version = "0.1.0"
+description = "Technical analysis and stock scanning for GoldenProject"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "GP_KDB",
+]
+
+[project.scripts]
+gp-tech = "GP_TECH.__main__:main"
+
+[tool.setuptools]
+packages = ["GP_TECH", "GP_TECH.channel", "GP_TECH.data", "GP_TECH.indicators"]
+
+[tool.setuptools.package-dir]
+GP_TECH = "."
+"GP_TECH.channel" = "channel"
+"GP_TECH.data" = "data"
+"GP_TECH.indicators" = "indicators"

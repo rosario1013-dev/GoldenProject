@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GP_AI"
+version = "0.1.0"
+description = "Semi-quantitative AI advice pipeline for GoldenProject"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "joblib",
+    "scikit-learn",
+    "lightgbm",
+    "xgboost",
+    "GP_KDB",
+    "GP_TECH",
+]
+
+[project.scripts]
+gp-ai = "GP_AI.__main__:main"
+
+[tool.setuptools]
+packages = [
+    "GP_AI",
+    "GP_AI.features",
+    "GP_AI.train",
+    "GP_AI.infer",
+    "GP_AI.scoring",
+    "GP_AI.store",
+]
+
+[tool.setuptools.package-dir]
+GP_AI = "."
+"GP_AI.features" = "features"
+"GP_AI.train" = "train"
+"GP_AI.infer" = "infer"
+"GP_AI.scoring" = "scoring"
+"GP_AI.store" = "store"

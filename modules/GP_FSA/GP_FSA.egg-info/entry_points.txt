@@ -1,0 +1,2 @@
+[console_scripts]
+gp-fsa = GP_FSA.__main__:main

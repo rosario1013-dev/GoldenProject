@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: GP_KDB
+Version: 1.0.0
+Summary: MongoDB management for kdb, tdx, and site databases
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: pymongo
+Requires-Dist: python-dateutil

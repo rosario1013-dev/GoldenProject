@@ -1,0 +1,2 @@
+[console_scripts]
+gp-ai = GP_AI.__main__:main

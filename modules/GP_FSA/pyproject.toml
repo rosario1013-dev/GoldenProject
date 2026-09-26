@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GP_FSA"
+version = "1.0.0"
+description = "Financial statement analysis from MongoDB CW data"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "prettytable",
+    "beautifulsoup4",
+    "python-dateutil",
+    "ipython",
+]
+
+[project.scripts]
+gp-fsa = "GP_FSA.__main__:main"
+
+[tool.setuptools]
+packages = [
+    "GP_FSA",
+    "GP_FSA.core",
+    "GP_FSA.statement",
+    "GP_FSA.statement_caled",
+    "GP_FSA.table",
+    "GP_FSA.valuation",
+    "GP_FSA.valuation.PE",
+    "GP_FSA.valuation.assign_caled",
+]
+
+[tool.setuptools.package-dir]
+GP_FSA = "."

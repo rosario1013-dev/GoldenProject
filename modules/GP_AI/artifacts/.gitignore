@@ -1,0 +1,5 @@
+# Trained model binaries (*.joblib) are produced by `python -m GP_AI train-*`.
+# Keep meta.json when present; do not commit large model dumps.
+*.joblib
+!README.md
+!.gitkeep

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GP_EM"
+version = "0.1.0"
+description = "East Money research reports and company filings → MongoDB"
+requires-python = ">=3.10"
+dependencies = [
+    "pymongo",
+    "requests",
+    "tqdm",
+]
+
+[project.scripts]
+gp-em = "GP_EM.__main__:main"
+
+[tool.setuptools]
+packages = ["GP_EM"]
+
+[tool.setuptools.package-dir]
+GP_EM = "."

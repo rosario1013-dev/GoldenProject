@@ -1,0 +1,2 @@
+[console_scripts]
+gp-kdb = GP_KDB.__main__:main

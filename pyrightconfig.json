@@ -1,0 +1,12 @@
+{
+  "include": ["backend", "modules"],
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": ["modules"],
+      "pythonVersion": "3.14"
+    }
+  ],
+  "venvPath": ".",
+  "venv": "K_VENV"
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+gp-em = GP_EM.__main__:main

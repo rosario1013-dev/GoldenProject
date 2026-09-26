@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: GP_TDX
+Version: 0.1.0
+Summary: Update and upload TDX data (quote, CW, dividend, stockinfo) to MongoDB
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pymongo
+Requires-Dist: pytdx
+Requires-Dist: tqdm
+Requires-Dist: pypinyin
+Requires-Dist: dbfread

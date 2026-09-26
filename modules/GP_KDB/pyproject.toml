@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GP_KDB"
+version = "1.0.0"
+description = "MongoDB management for kdb, tdx, and site databases"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "pymongo",
+    "python-dateutil",
+]
+
+[project.scripts]
+gp-kdb = "GP_KDB.__main__:main"
+
+[tool.setuptools]
+packages = ["GP_KDB"]
+
+[tool.setuptools.package-dir]
+GP_KDB = "."

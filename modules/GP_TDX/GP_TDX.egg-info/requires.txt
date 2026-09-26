@@ -1,0 +1,7 @@
+numpy
+pandas
+pymongo
+pytdx
+tqdm
+pypinyin
+dbfread

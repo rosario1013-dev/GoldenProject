@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: GP_AI
+Version: 0.1.0
+Summary: Semi-quantitative AI advice pipeline for GoldenProject
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: joblib
+Requires-Dist: scikit-learn
+Requires-Dist: lightgbm
+Requires-Dist: xgboost
+Requires-Dist: GP_KDB
+Requires-Dist: GP_TECH

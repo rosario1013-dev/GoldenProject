@@ -1,0 +1,1 @@
+﻿from GP_FSA.valuation import assign_caled

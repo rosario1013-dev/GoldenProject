@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: GP_EM
+Version: 0.1.0
+Summary: East Money research reports and company filings → MongoDB
+Requires-Python: >=3.10
+Requires-Dist: pymongo
+Requires-Dist: requests
+Requires-Dist: tqdm
